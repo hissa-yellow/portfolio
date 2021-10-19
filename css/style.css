@@ -418,3 +418,22 @@ footer {
   text-align: center;
   margin-top: 3.61vw;
 }
+
+
+/*404*/
+
+.section-404 {
+  text-align: center;
+  margin-top: 20%;
+  margin-bottom: 15%;
+}
+
+.notfound {
+  font-size: 6.3vw;
+}
+
+.notfound-p {
+  font-size: 1.11vw;
+}
+
+
