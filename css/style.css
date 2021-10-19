@@ -1,0 +1,421 @@
+
+
+p, li {
+  font-size: 0.79vw;
+  letter-spacing: 00.1em;
+  line-height: 175%;
+}
+
+
+
+.hidden {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
+
+.top-cover {
+  height: 63vw;
+  background-color: #D2E07F;
+}
+
+.menu {
+  text-align: center;
+  padding-top: 10.2vw; 
+  position: relative;
+  margin: 0 auto;
+  
+}
+
+.menu-icon {
+  cursor: pointer;
+  width: 28%;
+  
+}
+
+.menu-icon:hover {
+  filter: drop-shadow(1px 1px 1.64vw rgba(0, 0, 0, 0.733));
+  transition: all 1s;
+  /*
+  -webkit-transform: perspective(500px) translateZ(25px);
+  -moz-transform: perspective(500px) translateZ(25px);
+  */
+}
+
+.menu-icon:active{
+  filter: drop-shadow(1px 1px 3vw rgba(0, 0, 0, 0.5));
+  transition: all 0.5s;
+}
+
+.menu-text {
+  font-size: 2.2vw;
+  line-height: 2.63vw;
+  position: absolute;
+  top :17vw; 
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  cursor: pointer;
+}
+
+/*
+.menu-text:hover {
+  font-size: 2.5vw;
+  transition: all 1s;
+  line-height: 40px;
+  position: absolute;
+  top: 17vw;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  cursor: pointer;
+}
+
+*/
+
+
+
+.top-text {
+  padding-top: 6.1vw;
+  padding-bottom: 198px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.portfolio {
+  font-size: 2.3vw;
+  line-height: 3.1vw;
+  letter-spacing: 0;
+  position: absolute;
+  top: 3.1vw;
+  left: 50%;
+  transform: translate(-36vw, 0);
+  z-index: 1;
+}
+
+
+.myname {
+  color: white;
+  text-align: center;
+  font-size: 6.3vw;
+  font-weight: 400;
+  line-height: 7.36vw;
+  
+}
+
+.arrow {
+  display: none;
+  text-align: center;
+  margin-top: 63.7vw;
+}
+
+.arraw1 {
+  width: 19.73vw;
+}
+
+.top-img-con {
+  text-align: center;
+}
+
+.top-img-sky {
+  border-radius: 4.4vw;
+  padding: 2.3vw;
+  height: 52.3vw;
+  width: 80%;
+}
+
+
+/**nav**/
+
+
+.close {
+  z-index: 10;
+  position: absolute;
+  top: 10.2vw;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 28%;
+}
+
+.close:hover {
+  filter: drop-shadow(1px 1px 1.64vw rgba(0, 0, 0, 0.733));
+  transition: all 1s;
+  
+} 
+
+.close:active {
+  filter: drop-shadow(1px 1px 3vw rgba(0, 0, 0, 0.5));
+  transition: all 0.5s;
+}
+
+
+
+#menu-con {
+  display: none;
+  text-align: center;
+}
+
+
+
+.nav-li {
+  width: 10%;
+  position: absolute;
+  top: 0;
+}
+
+.nav-btn {
+  /*
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  position: relative;
+  padding-top: 100%; /*paddingの％は親要素に依存*/ /*
+  height: 0;
+  */
+}
+
+.nav-btn a {
+  display: block;
+  width: 9.86vw;
+  font-size: 1.57vw;
+  text-align: center;
+  line-height: 9.86vw;
+  background-color: white;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+
+
+.nav-btn a:hover {
+  box-shadow: 1px 1px 1.6vw rgba(0, 0, 0, 0.733);
+  transition: all 1s;
+}
+
+.nav-btn a:active {
+  box-shadow: 1px 1px 3vw rgba(0, 0, 0, 0.548);
+  transition: all 0.5s;
+}
+
+
+
+/*
+.f-about {
+  position: absolute;
+  top: 6.58vw;
+  left: 6.58vw;
+}
+
+.f-works {
+  position: absolute;
+  top: 300px;
+  left: 300px;
+}
+
+.f-service {
+  position: absolute;
+  top: 200px;
+  right: 300px;
+
+}
+
+.f-price {
+  position: absolute;
+  top: 400px;
+  right: 100px;
+}
+
+*/
+
+
+
+
+
+
+
+/**about**/
+.section {
+  width: 60%;
+  margin: 26.3vw auto 0;
+}
+
+
+.section-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 4vw;
+  line-height: 4.67vw;
+  letter-spacing: 0.1em;
+  color: #000000;
+  margin-bottom: 4.73vw;
+}
+
+.about-top {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
+.mydata {
+  display: flex;
+  margin-top: 3.48vw;
+  margin-bottom: 3.48vw;
+}
+
+.mydata p {
+  margin-right: 2.7vw;
+}
+
+.my-icon {
+  width: 13.1vw;
+  border-radius: 50%;
+}
+
+.mydata-text {
+  margin-bottom: 4.73vw;
+}
+
+.job-con {
+  display: flex;
+}
+
+.job-con-title {
+  margin-right: 5%;
+}
+
+
+
+/**work**/
+.work {
+  margin-bottom: 6.57vw;
+}
+
+.work-img {
+  width: 100%;
+}
+
+.work-text {
+  margin-top: 1.3vw;
+  display: flex;
+
+}
+
+.work-text-contents {
+  width: 50%;
+}
+
+.work-url {
+  text-align: right;
+}
+
+
+/**service**/
+.service-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.service-text {
+  text-align: center;
+}
+
+
+
+
+.coding {
+  margin-bottom: 195px;
+}
+
+
+
+
+
+
+/**price**/
+.price {
+  margin-bottom: 26.3%;
+}
+.price-top {
+  display: flex;
+  border-bottom: 0.06vw solid black;
+}
+
+.price-fig {
+  width: 50%;
+}
+
+.price-fig-right {
+  text-align: right;
+}
+
+.price-bottom {
+  margin-top: 6.11vw;
+}
+
+.price-bottom-text {
+  display: flex;
+}
+
+.price-bottom-left p {
+  margin-right: 1.3vw;
+}
+
+.price-total {
+  margin-top: 3.28vw;
+}
+
+
+
+
+
+
+
+
+footer {
+  background-color: #D2E07F;
+  width: 100%;
+}
+
+.footer-con {
+  padding-top: 3.94vw;
+  padding-bottom: 3.94vw;
+  margin: 0 auto;
+  width: 70vw;
+}
+
+.footer-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.footer-box {
+  
+}
+
+.footer-btn {
+  display: block;
+  width: 9.86vw;
+  font-size: 1.57vw;
+  text-align: center;
+  line-height: 9.86vw;
+  background-color: white;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.footer-btn:hover  {
+  box-shadow: 1px 1px 1.6vw rgba(0, 0, 0, 0.733);
+  transition: all 1s;
+}
+
+.footer-btn:active {
+  box-shadow: 1px 1px 3vw rgba(0, 0, 0, 0.548);
+  transition: all 0.5s;
+}
+
+.copy-rights {
+  text-align: center;
+  margin-top: 3.61vw;
+}

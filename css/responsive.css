@@ -1,0 +1,299 @@
+
+@media screen and (min-width:840px) {
+.f-about {
+  position: absolute;
+  top: 6.58vw;
+  left: 6.58vw;
+}
+
+.f-works {
+  position: absolute;
+  top: 19.7vw;
+  left: 19.7vw;
+}
+
+.f-service {
+  position: absolute;
+  top: 13.15vw;
+  right: 19.7vw;
+
+}
+
+.f-price {
+  position: absolute;
+  top: 26.31vw;
+  right: 6.57vw;
+}
+
+  
+  
+  /*service*/
+  .service-text-responsive {
+    display: none;
+  }
+
+  .service-text-responsive {
+    display: none;
+  }
+
+
+
+  
+  
+  /*price*/
+  .price-top {
+    display: block;
+    display: flex;
+  }
+
+  .price-top-responsive {
+    display: none;
+  }
+
+  .price-bottom-responsive {
+    display: none;
+  }
+
+  
+}
+
+
+
+
+
+
+@media screen and (max-width:840px) {
+  /*for smart phone*/
+  p, li {
+    font-size: 12px;
+  }
+
+  .top-cover {
+    height: 216.5vw;
+  }
+
+  .menu {
+    padding-top: 26.4vw;
+
+  }
+
+  .menu-icon {
+    width: 26.6vw;
+  }
+
+  .menu-text {
+    position: absolute;
+    top: 35vw;
+    font-size: 2.4vw;
+  }
+
+  .close {
+    position: absolute;
+    top: 26.4vw;
+  }
+
+  .top-text {
+    padding-top: 6.6vw;
+    padding-bottom: 0;
+  }
+
+  .arrow {
+    display: block;
+
+  }
+
+
+  .nav-li {
+    width: 18.6vw;
+  }
+
+  .nav-btn a {
+    width: 18.6vw;
+    line-height: 18.6vw;
+  }
+
+
+  .f-about { 
+    position: absolute;
+    top: 8vw;
+    left: 10.4vw;
+  }
+
+  .f-works {
+    position: absolute;
+    top: 8vw;
+    right: 10.4vw;
+    left: auto;
+  }
+
+  .f-service {
+    position: absolute;
+    top: 34.6vw;
+    left: 10.4vw;
+
+  }
+
+  .f-price {
+    position: absolute;
+    top: 34.6vw;
+    right: 10.4vw;
+  }
+
+  .top-img-sky {
+    width: 100%;
+    height: 65.6vw;
+  }
+
+  
+
+/*about*/
+
+  .section {
+    width: 71.46vw;
+    margin: 50vw auto 0;
+  }
+
+  .section-title {
+    text-align: center;
+    font-size: 5.86vw;
+    margin-bottom: 19.93vw;
+  }
+
+  .about-top {
+    display: block;
+    margin-bottom: 12.8vw;
+  }
+
+  .my-icon-con {
+    text-align: center;
+  }
+
+  .my-icon {
+    width: 16vw;
+  }
+
+  .mydata {
+    display: block;
+    margin-top: 12.8vw;
+    text-align: center;
+  }
+
+  .mydata p {
+    margin-right: 0;
+  }
+
+  .mydata-text {
+    margin-bottom: 17.86vw;
+    text-align: center;
+  }
+
+  .job-con {
+    display: block;
+    text-align: center;
+  }
+
+  .job-con-title {
+    margin-right: 0;
+    margin-bottom: 4.26vw;
+    text-align: center;
+  }
+
+
+
+
+  /*works*/
+  .work p {
+    font-size: 10px;
+    line-height: 120%;
+  }
+
+
+  /*service*/
+  .service {
+    text-align: center;
+  }
+
+  .service-title {
+    display: block;
+  }
+
+  .service-con-title {
+    padding-bottom: 1.86vw;
+    border-bottom: solid 1px black;
+    margin-bottom: 9.86vw;
+  }
+
+  .service-text {
+    display: none;
+  }
+
+/*price*/
+.price {
+  margin-bottom: 50vw;
+}
+
+.price-top {
+  display: none;
+}
+
+.price-list-responsive {
+  border-bottom: solid 1px black;
+  text-align: center;
+  padding-bottom: 2.13vw;
+}
+
+
+.price-fig-responsive {
+  text-align: center;
+  margin-top: 11.2vw;
+}
+
+.price-bottom {
+  display: none;
+}
+
+.price-bottom-responsive {
+  margin-top: 23.2vw;
+}
+
+.price-bottom-text-responsive {
+  display: flex;
+  justify-content: center;
+}
+
+.price-total-con-responsive {
+  margin-top: 9.33vw;
+  text-align: center;
+}
+
+/*footer*/
+footer {
+  height: inherit;
+}
+
+.footer-con {
+  padding-top: 3.5vw;
+  padding-bottom: 3.5vw;
+  width: 59vw;
+}
+
+.footer-btn {
+  width: 16vw;
+  line-height: 16vw;
+  
+}
+
+.footer-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+  height: 35vw;
+}
+
+.copy-rights {
+  font-size: 0.5vw;
+}
+
+
+}
