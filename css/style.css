@@ -164,15 +164,17 @@ p, li {
   top: 0;
 }
 
+
+/*
 .nav-btn {
-  /*
   background-color: rgb(255, 255, 255);
   border-radius: 50%;
   position: relative;
   padding-top: 100%; /*paddingの％は親要素に依存*/ /*
   height: 0;
-  */
 }
+*/
+
 
 .nav-btn a {
   display: block;
@@ -390,9 +392,6 @@ footer {
 }
 
 
-.footer-box {
-  
-}
 
 .footer-btn {
   display: block;
