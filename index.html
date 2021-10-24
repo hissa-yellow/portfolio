@@ -21,6 +21,11 @@
     <link rel="stylesheet" href="https://hissa-yellow.github.io/portfolio/css/style.css">
     <link rel="stylesheet" href="https://hissa-yellow.github.io/portfolio/css/responsive.css">
 
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+
     <!--OGP setting-->
     <meta property="og:url" content="https://github.com/hissa-yellow/portfolio">
     <meta property="og:type" content="website">
@@ -45,6 +50,9 @@
     
     <!--jquery CDN-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!--formrun お問い合わせフォーム-->
+    <script src="https://sdk.form.run/js/v2/formrun.js"></script>
 
   </head>
 
@@ -73,6 +81,9 @@
             </div>
             <div class="nav-li f-price">
               <div class="nav-btn"><a href="#section-price">Price</a></div>
+            </div>
+            <div class="nav-li f-contact">
+              <div class="nav-btn"><a href="#section-contact">Contact</a></div>
             </div>
           </nav>
         </section>
@@ -383,6 +394,71 @@
         <!---->
       </section>
 
+      <section class="contact section" id="section-contact">
+        <h2 class="section-title">Contact</h2>
+        <form class="formrun" action="https://form.run/api/v1/r/c5upvkcq0tmqoz99x06h9aq9" method="post">
+          <!-- ↓自由に要素を追加・編集することができます -->
+          <div class="contact-con">
+            <label class="contact-label">貴社名</label>
+            <input name="貴社名" type="text">
+          </div>
+
+          <div class="contact-con">
+            <label class="contact-label">お名前　<span class="Mandatory">必須</span></label>
+            <input name="お名前" type="text"　data-formrun-type="email" data-formrun-required>
+            <div class="contact-label error" data-formrun-show-if-error="お名前">名前を入力してください</div>
+          </div>
+        
+          <div class="contact-con">
+            <label class="contact-label">メールアドレス　<span class="Mandatory">必須</span></label>
+            <input name="メールアドレス" type="text" data-formrun-type="email" data-formrun-required>
+            <div class="contact-label error" data-formrun-show-if-error="メールアドレス">メールアドレスを正しく入力してください</div>
+          </div>
+
+          <div class="contact-con">
+            <label class="contact-label">電話番号</label>
+            <input name="電話番号" type="text">
+          </div>
+        
+          <div class="contact-con">
+            <label class="contact-label">お問い合わせ内容　<span class="Mandatory">必須</span></label>
+            <textarea name="お問い合わせ内容" data-formrun-required></textarea>
+            <div class="contact-label error" data-formrun-show-if-error="お問い合わせ内容">お問い合わせ入力してください</div>
+          </div>
+
+          
+
+        
+          <div class="contact-con">
+            <div class="checkbox-con">
+              <label class="contact-label">個人情報利用同意　<span class="Mandatory">必須</span></label>
+              <input type="checkbox" name="個人情報利用同意" data-formrun-required>
+            </div>
+            
+            <div class="contact-label error" data-formrun-show-if-error="個人情報利用同意">同意してください</div>
+          </div>
+        
+          <!-- ボット投稿をブロックするためのタグ -->
+          <div class="_formrun_gotcha">
+            <style media="screen">
+              ._formrun_gotcha {
+                position: absolute !important;
+                height: 1px;
+                width: 1px;
+                overflow: hidden;
+              }
+            </style>
+            <label for="_formrun_gotcha">If you are a human, ignore this field</label>
+            <input type="text" name="_formrun_gotcha" id="_formrun_gotcha" tabindex="-1">
+          </div>
+          <button class="contact-label mobile-style" type="submit" data-formrun-error-text="未入力の項目があります" data-formrun-submitting-text="送信中..."> </button>
+          <button class="contact-label contact-btn" type="submit">送信</button>
+          
+        </form>
+
+      </section>
+
+
 
 
 
@@ -402,7 +478,7 @@
             <li class="footer-box"><a class="footer-btn" href="#section-works">Works</a></li>
             <li class="footer-box"><a class="footer-btn" href="#section-service">Service</a></li>
             <li class="footer-box"><a class="footer-btn" href="#section-price">Price</a></li>
-            <li class="footer-box"><a class="footer-btn" href="#section-flow">Flow</a></li>
+            <li class="footer-box"><a class="footer-btn" href="#section-contact">Contact</a></li>
           </ul>
         </nav>
         <p class="copy-rights">© 2021 HISAMICHI HASEGAWA</p>
