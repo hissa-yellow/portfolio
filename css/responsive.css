@@ -75,7 +75,7 @@
 
 @media screen and (max-width:840px) {
   /*for smart phone*/
-  p, li,
+  p, li, a,
   label, span
   {
     font-size: 12px;
@@ -352,7 +352,6 @@ footer {
 .footer-btn {
   width: 16vw;
   line-height: 16vw;
-  
 }
 
 .footer-list {
