@@ -453,6 +453,8 @@ input[type=checkbox] {
   transition: all 0.5s;
 }
 
+
+
 .mobile-style {
   color: red;
 }
@@ -465,6 +467,16 @@ input[type=checkbox] {
   justify-content: space-between;
   width: 50%;
   padding: 10px 20px;
+}
+
+.personal-info:hover {
+  box-shadow: 1px 1px 1.6vw rgba(0, 0, 0, 0.733);
+  transition: all 1s;
+}
+
+.personal-info:active {
+  box-shadow: 1px 1px 1.6vw rgba(0, 0, 0, 0.733);
+  transition: all 1s;
 }
 
 .Mandatory-personai-info {
