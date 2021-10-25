@@ -1,5 +1,5 @@
 body {
-  font-family: 'Yu Gothic', 'Hiragino Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Yu Gothic', 'Hiragino Sans', 'San Francisco', sans-serif;
   -webkit-text-size-adjust: 100%;
   
 
@@ -253,7 +253,7 @@ label {
 
 
 .section-title {
-  font-family: Roboto;
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: normal;
   font-size: 4vw;
