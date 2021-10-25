@@ -352,6 +352,7 @@ footer {
 .footer-btn {
   width: 16vw;
   line-height: 16vw;
+  font-size: 12px;
 }
 
 .footer-list {
