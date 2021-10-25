@@ -2,7 +2,8 @@
   font-family: 'Yu Gothic', 'Hiragino Sans、ヒラギノ角ゴシック', sans-serif;
 }
 
-p, li {
+p, li,
+label, span {
   font-size: 0.79vw;
   letter-spacing: 00.1em;
   line-height: 175%;
