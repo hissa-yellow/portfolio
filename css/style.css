@@ -1,5 +1,6 @@
 .body {
   font-family: 'Yu Gothic', 'Hiragino Sans、ヒラギノ角ゴシック', sans-serif;
+  -webkit-text-size-adjust: 100%;
 }
 
 p, li,
@@ -15,7 +16,7 @@ label, span {
   position: absolute;
   top: -9999px;
   left: -9999px;
-}
+} 
 
 
 .top-cover {
