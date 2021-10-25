@@ -75,7 +75,7 @@
 
 @media screen and (max-width:840px) {
   /*for smart phone*/
-  p, li, a,
+  p, li,
   label, span
   {
     font-size: 12px;
