@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="https://hissa-yellow.github.io/portfolio/css/style.css">
     <link rel="stylesheet" href="https://hissa-yellow.github.io/portfolio/css/responsive.css">
 
-    <!--
+    
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
@@ -432,8 +432,10 @@
         
           <div class="contact-con">
             <div class="checkbox-con">
-              <label class="contact-label">個人情報利用同意　<span class="Mandatory">必須</span></label>
-              <input type="checkbox" name="個人情報利用同意" data-formrun-required>
+              <span class="Mandatory Mandatory-personai-info">必須</span>
+              <label class="personal-info" for="personal-info-consent">個人情報の利用に同意する
+                <input type="checkbox" id="personal-info-consent" name="個人情報利用同意" data-formrun-required>
+              </label>
             </div>
             
             <div class="contact-label error" data-formrun-show-if-error="個人情報利用同意">同意してください</div>
@@ -456,7 +458,6 @@
           <button class="contact-label contact-btn" type="submit">送信</button>
           
         </form>
-        <label>test</label>
 
       </section>
 

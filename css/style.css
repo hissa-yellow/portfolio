@@ -422,9 +422,7 @@ textarea {
   border-radius: 5px;
 }
 
-.checkbox-con {
-  display: flex;
-}
+
 
 input[type=checkbox] {
 	transform: scale(1.5);
@@ -457,6 +455,21 @@ input[type=checkbox] {
   color: red;
 }
   
+
+.personal-info {
+  background-color: #D2E07F;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  padding: 10px 20px;
+}
+
+.Mandatory-personai-info {
+  margin-left: 10px;
+}
+
+
 
 
 
