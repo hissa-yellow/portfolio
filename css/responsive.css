@@ -385,12 +385,13 @@ footer {
 
 /*thanks.html*/
   .section-thanks {
-    margin-top: 30vh;
+    margin-top: 15vh;
     margin-bottom: 30vh;
   }
 
   .thanks-p {
-    font-size: 18px;
+    font-size: 15px;
+    margin-top: 20px;
   }
 
   .thanks-note {
