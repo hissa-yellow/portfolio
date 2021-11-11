@@ -21,10 +21,11 @@
     <link rel="stylesheet" href="https://hissa-yellow.github.io/portfolio/css/style.css">
     <link rel="stylesheet" href="https://hissa-yellow.github.io/portfolio/css/responsive.css">
 
+    
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
-
+    -->
 
     <!--OGP setting-->
     <meta property="og:url" content="https://github.com/hissa-yellow/portfolio">
@@ -151,18 +152,35 @@
 
         <!--↓↓↓↓work-->
         <div class="work">
-          <div>
-            <img src="images/work-img.jpg" class="work-img" alt="work-image">
+          <div class="bgUD">
+            <a href="https://hissa-yellow.github.io/coccelle/">
+              <span class="mask">
+                <img src="images/洋菓子店CoccelleItopページ.png" class="work-img" alt="洋菓子店Coccelleの画像">
+                <span class="cap">
+                  <p class="cap-title">【洋菓子店Coccelle(仮）のホームページ】</p>
+                  <p class="cap-text">デザインからコーディングまでを担当。インスタグラムの公式アカウントでリーチした新規顧客に対して、
+                    より詳しくお店について知っていただく、そしてお店に足を運んで頂くために「食べたくなる」を意識したデザイン。商品画像をスライドショーにして配置することでより「食べたくなるサイト」に。
+                    「高貴で優雅な洋菓子店」というブランドイメージを大切にし、サイト全体にコンテンツを「ふわっ」と表示するアニメーションを実装。サイト内のボタンにもゆっくりと動くアニメーションを実装。
+                  </p>
+                  <p class="cap-lang">html/css/javascript/jQuery</p>
+                  <p class="cap-price">10,000円~15,000円</p>
+                  <p class="cap-btn">詳しく見る</p>
+                </span>
+              </span>
+            </a>
           </div>
           <div class="work-text">
             <div class="work-text-contents">
-              <p class="work-title">title</p>
-              <p class="work-explain">explain</p>
-              <p class="work-language">language</p>
-              <p class="work-price">price</p>
+              <p class="work-title">【洋菓子店Coccelle様のホームページ】</p>
+              <p class="work-explain">デザインからコーディングまでを担当いたしました。インスタグラムの公式アカウントでリーチした新規顧客に対して、
+                より詳しくお店について知っていただく、そしてお店に足を運んで頂くために「食べたくなる」を意識したデザイン。商品画像をスライドショーにして配置することでより「食べたくなるサイト」に。
+                「高貴で優雅な洋菓子店」というブランドイメージを大切にし、サイト全体にコンテンツを「ふわっ」と表示するアニメーションを実装。サイト内のボタンにもゆっくりと動くアニメーションを実装。
+              </p>
+              <p class="work-language">html/css/javascript/jQuery</p>
+              <p class="work-price">10,000円~15,000円</p>
             </div>
             <div class="work-text-contents">
-              <p class="work-url">https://example.com</p>
+              <a href="https://hissa-yellow.github.io/coccelle/" class="work-url">https://hissa-yellow.github.io/coccelle/</a>
             </div>
           </div>
         </div>
@@ -425,14 +443,16 @@
             <textarea name="お問い合わせ内容" data-formrun-required></textarea>
             <div class="contact-label error" data-formrun-show-if-error="お問い合わせ内容">お問い合わせ入力してください</div>
           </div>
-
+ 
           
 
         
           <div class="contact-con">
             <div class="checkbox-con">
-              <label class="contact-label">個人情報利用同意　<span class="Mandatory">必須</span></label>
-              <input type="checkbox" name="個人情報利用同意" data-formrun-required>
+              <span class="Mandatory Mandatory-personai-info">必須</span>
+              <label class="personal-info" for="personal-info-consent">個人情報の利用に同意する
+                <input type="checkbox" id="personal-info-consent" name="個人情報利用同意" data-formrun-required>
+              </label>
             </div>
             
             <div class="contact-label error" data-formrun-show-if-error="個人情報利用同意">同意してください</div>

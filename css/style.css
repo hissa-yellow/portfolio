@@ -1,9 +1,19 @@
+body {
+  font-family: 'Yu Gothic', 'Hiragino Sans', sans-serif;
+  -webkit-text-size-adjust: 100%;
+  
 
+}
 
-p, li {
+p, li, a, 
+label, span {
   font-size: 0.79vw;
   letter-spacing: 00.1em;
   line-height: 175%;
+}
+
+label {
+  display: block;
 }
 
 
@@ -12,7 +22,7 @@ p, li {
   position: absolute;
   top: -9999px;
   left: -9999px;
-}
+} 
 
 
 .top-cover {
@@ -243,7 +253,6 @@ p, li {
 
 
 .section-title {
-  font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 4vw;
@@ -295,21 +304,96 @@ p, li {
 
 .work-img {
   width: 100%;
+  border: 1px solid rgb(34, 34, 34);
+}
+
+.work-title {
+  font-weight: bold;
+  margin-bottom: 1em;
 }
 
 .work-text {
   margin-top: 1.3vw;
-  display: flex;
+  display: block;
+  
+}
 
+.work-language,
+.work-explain,
+.work-price {
+  margin-bottom: 1em;
 }
 
 .work-text-contents {
-  width: 50%;
+  width: 100%;
 }
 
-.work-url {
-  text-align: right;
+
+.work-url:hover {
+  
+  transition: all 1s;
 }
+
+/*work-img hover*/
+.bgUD {
+  position: relative;
+}
+
+.bgUD span.mask {
+  position: relative;
+  display: block;
+  line-height: 0;
+  overflow: hidden;
+}
+
+.bgUD span.mask::before {
+  content: "";
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  transition: .3s ease-in-out;
+  transform: translateY(100%);
+  background-color: rgba(73, 73, 73, 0.774);
+  width: 100%;
+  height: 100%; 
+}
+
+.bgUD:hover span.mask::before {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.bgUD span.cap {
+  position: absolute;
+  opacity: 0;
+  transition: .5s ease-in-out;
+  z-index: 3;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(255, 255, 255);
+  line-height: 1.5;
+  
+}
+
+.cap p {
+  margin-bottom: 1em;
+}
+
+
+.cap-btn {
+  border: 0.8px solid white;
+  padding: 10px;
+  display: inline-block;
+}
+
+.bgUD:hover span.cap {
+  opacity: 1;
+}
+
+/*--------------*/
 
 
 /**service**/
@@ -414,9 +498,7 @@ textarea {
   border-radius: 5px;
 }
 
-.checkbox-con {
-  display: flex;
-}
+
 
 input[type=checkbox] {
 	transform: scale(1.5);
@@ -445,10 +527,37 @@ input[type=checkbox] {
   transition: all 0.5s;
 }
 
+
+
 .mobile-style {
   color: red;
 }
   
+
+.personal-info {
+  background-color: #D2E07F;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  padding: 10px 20px;
+}
+
+.personal-info:hover {
+  box-shadow: 1px 1px 1.6vw rgba(0, 0, 0, 0.733);
+  transition: all 1s;
+}
+
+.personal-info:active {
+  box-shadow: 1px 1px 1.6vw rgba(0, 0, 0, 0.733);
+  transition: all 1s;
+}
+
+.Mandatory-personai-info {
+  margin-left: 10px;
+}
+
+
 
 
 

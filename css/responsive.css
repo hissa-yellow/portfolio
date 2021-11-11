@@ -75,7 +75,9 @@
 
 @media screen and (max-width:840px) {
   /*for smart phone*/
-  p, li {
+  p, li,
+  label, span
+  {
     font-size: 12px;
   }
 
@@ -122,6 +124,7 @@
   .nav-btn a {
     width: 18.6vw;
     line-height: 18.6vw;
+    font-size: 13px;
   }
 
 
@@ -225,6 +228,10 @@
     line-height: 120%;
   }
 
+  .cap {
+    display: none;
+  }
+
 
   /*service*/
   .service {
@@ -286,6 +293,11 @@
   margin-bottom: 50vw;
 }
 
+input, 
+textarea {
+  border: 0px;
+}
+
 input[type=text] {
   width: 100%;
 }
@@ -314,6 +326,20 @@ input[type=checkbox] {
   margin: 0 auto;
 }
 
+.contact-label {
+  font-size: 12px;
+}
+
+.personal-info {
+  width: 100%;
+}
+
+#personal-info-consent {
+  width: 10px;
+}
+
+
+
 
 
 
@@ -331,7 +357,7 @@ footer {
 .footer-btn {
   width: 16vw;
   line-height: 16vw;
-  
+  font-size: 9px;
 }
 
 .footer-list {
@@ -343,12 +369,12 @@ footer {
 }
 
 .copy-rights {
-  font-size: 0.5vw;
+  font-size: 2.5vw;
 }
 
 /*404.html*/
 .section-404 {
-  margin-top: 50vh;
+  margin-top: 10vh;
   margin-bottom: 30vh;
 
 }
@@ -363,18 +389,31 @@ footer {
 
 /*thanks.html*/
   .section-thanks {
-    margin-top: 30vh;
+    margin-top: 10vh;
     margin-bottom: 30vh;
   }
 
-  .thanks-note p {
-    font-size: 1vw;
+  .thanks-p {
+    font-size: 15px;
+    margin-top: 20px;
+  }
+
+  .thanks-note {
+    font-size: 12px;
   }
 
 
   .to-top-btn {
     width: 16vw;
     line-height: 16vw;
+  }
+
+
+}
+
+@media screen and (min-width:1024px) {
+  .work-text {
+    display: none;
   }
 
 
