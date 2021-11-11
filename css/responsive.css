@@ -228,6 +228,10 @@
     line-height: 120%;
   }
 
+  .cap {
+    display: none;
+  }
+
 
   /*service*/
   .service {
@@ -402,6 +406,14 @@ footer {
   .to-top-btn {
     width: 16vw;
     line-height: 16vw;
+  }
+
+
+}
+
+@media screen and (min-width:1024px) {
+  .work-text {
+    display: none;
   }
 
 
